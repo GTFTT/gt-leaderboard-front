@@ -1,7 +1,27 @@
 .mainCont {
-    min-height: 10vh;
+    /* min-height: 10vh; */
     background: #000000;
     border-radius: 20px;
     color: white;
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    border: 0.1em solid white;
+}
+
+.numberCont {
+    color: #7B7B7B;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.nameCont {
+    min-width: 40%;
+    text-align: left;
+    font-size: 1.4em;
+}
+
+.ratingCont {
+    color: #42DAFB;
 }
