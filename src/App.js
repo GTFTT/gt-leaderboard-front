@@ -10,7 +10,7 @@ function App() {
                     LEADERBOARD
                 </div>
             </div>
-            <div>
+            <div className={"pageCont"}>
                 <Home />
             </div>
         </div>

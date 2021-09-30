@@ -22,3 +22,10 @@
 
     color: #FFFFFF;
 }
+
+.pageCont {
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}

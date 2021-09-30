@@ -1,0 +1,7 @@
+.mainCont {
+    min-height: 10vh;
+    background: #000000;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 1rem;
+}
