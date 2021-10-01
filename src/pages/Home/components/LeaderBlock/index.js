@@ -28,8 +28,7 @@ const LeaderBlock = (props) => {
             </div>
 
             <div className={Styles.nameCont}>
-                {_.get(props, 'leader.firstName', '')}
-                {_.get(props, 'leader.lastName', '')}
+                {`${_.get(props, 'leader.firstName', '')} ${_.get(props, 'leader.lastName', '')}`}
             </div>
 
             <div className={Styles.ratingCont}>{props.leader.rating}</div>
@@ -54,8 +53,7 @@ const LeaderBlock = (props) => {
             >
                 <div className={Styles.popoverContainer}>
                     <div className={Styles.popoverTitle}>
-                        { _.get(props, 'leader.firstName', '')}
-                        {_.get(props, 'leader.lastName', '')}
+                        {`${_.get(props, 'leader.firstName', '')} ${_.get(props, 'leader.lastName', '')}`}
                         <span>(#{_.get(props, 'leader.id', '')})</span>
                     </div>
                     <a className={Styles.popoverEmail} href={`mailto:${props.leader.email}`}>
