@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gt-leaderboard-front/static/css/main.8c33697f.chunk.css",
-    "main.js": "/gt-leaderboard-front/static/js/main.d3d60068.chunk.js",
-    "main.js.map": "/gt-leaderboard-front/static/js/main.d3d60068.chunk.js.map",
+    "main.js": "/gt-leaderboard-front/static/js/main.e92dda5c.chunk.js",
+    "main.js.map": "/gt-leaderboard-front/static/js/main.e92dda5c.chunk.js.map",
     "runtime-main.js": "/gt-leaderboard-front/static/js/runtime-main.4676e004.js",
     "runtime-main.js.map": "/gt-leaderboard-front/static/js/runtime-main.4676e004.js.map",
     "static/js/2.0299bdc5.chunk.js": "/gt-leaderboard-front/static/js/2.0299bdc5.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.4676e004.js",
     "static/js/2.0299bdc5.chunk.js",
     "static/css/main.8c33697f.chunk.css",
-    "static/js/main.d3d60068.chunk.js"
+    "static/js/main.e92dda5c.chunk.js"
   ]
 }
