@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/gt-leaderboard-front/static/css/main.8c33697f.chunk.css",
-    "main.js": "/gt-leaderboard-front/static/js/main.e92dda5c.chunk.js",
-    "main.js.map": "/gt-leaderboard-front/static/js/main.e92dda5c.chunk.js.map",
+    "main.css": "/gt-leaderboard-front/static/css/main.62fe8f6d.chunk.css",
+    "main.js": "/gt-leaderboard-front/static/js/main.e1476980.chunk.js",
+    "main.js.map": "/gt-leaderboard-front/static/js/main.e1476980.chunk.js.map",
     "runtime-main.js": "/gt-leaderboard-front/static/js/runtime-main.4676e004.js",
     "runtime-main.js.map": "/gt-leaderboard-front/static/js/runtime-main.4676e004.js.map",
-    "static/js/2.0299bdc5.chunk.js": "/gt-leaderboard-front/static/js/2.0299bdc5.chunk.js",
-    "static/js/2.0299bdc5.chunk.js.map": "/gt-leaderboard-front/static/js/2.0299bdc5.chunk.js.map",
+    "static/js/2.bcc47be0.chunk.js": "/gt-leaderboard-front/static/js/2.bcc47be0.chunk.js",
+    "static/js/2.bcc47be0.chunk.js.map": "/gt-leaderboard-front/static/js/2.bcc47be0.chunk.js.map",
     "index.html": "/gt-leaderboard-front/index.html",
-    "static/css/main.8c33697f.chunk.css.map": "/gt-leaderboard-front/static/css/main.8c33697f.chunk.css.map",
-    "static/js/2.0299bdc5.chunk.js.LICENSE.txt": "/gt-leaderboard-front/static/js/2.0299bdc5.chunk.js.LICENSE.txt"
+    "static/css/main.62fe8f6d.chunk.css.map": "/gt-leaderboard-front/static/css/main.62fe8f6d.chunk.css.map",
+    "static/js/2.bcc47be0.chunk.js.LICENSE.txt": "/gt-leaderboard-front/static/js/2.bcc47be0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4676e004.js",
-    "static/js/2.0299bdc5.chunk.js",
-    "static/css/main.8c33697f.chunk.css",
-    "static/js/main.e92dda5c.chunk.js"
+    "static/js/2.bcc47be0.chunk.js",
+    "static/css/main.62fe8f6d.chunk.css",
+    "static/js/main.e1476980.chunk.js"
   ]
 }
