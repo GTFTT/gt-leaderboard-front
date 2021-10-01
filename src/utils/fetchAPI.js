@@ -6,6 +6,7 @@
 import _ from 'lodash';
 import qs from 'qs';
 
+// export const API = 'http://localhost:8000';
 export const API = 'https://gt-leaderboard-api.herokuapp.com';
 
 class ResponseError extends Error {

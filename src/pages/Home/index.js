@@ -10,7 +10,7 @@ import Styles from './styles.module.css';
 
 const Home = () => {
     const [leaderboard, setLeaderboard] = useState({});
-    const [filters, setFilters] = useState({page: 1, pageSize: 2, query: "", region: ""});
+    const [filters, setFilters] = useState({page: 1, query: "", region: ""});
 
     useEffect(() => {
         fetchAPI('GET', '/leaderboard', filters)
