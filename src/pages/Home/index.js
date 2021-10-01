@@ -30,7 +30,7 @@ const Home = () => {
                         label="Search..."
                         variant="filled"
                         value={ filters.query }
-                        onChange={e => setFilters({...filters, query: e.target.value})}
+                        onChange={e => setFilters({...filters, query: e.target.value, page: 1})}
                     />
                     <Select
                         className={Styles.inputSelect}
@@ -38,7 +38,7 @@ const Home = () => {
                         id="demo-simple-select"
                         label="Region"
                         value={filters.region}
-                        onChange={e => setFilters({...filters, region: e.target.value})}
+                        onChange={e => setFilters({...filters, region: e.target.value, page: 1})}
                     >
                         {
                             _.map(availableRegions, (region, index) => {
