@@ -19,6 +19,11 @@ const style = {
     p: 4,
 };
 
+/**
+ * Score history modal automatically loads user's score history and display it.
+ * Return button, modal window logic is handled automatically.
+ * @param {*} params.userId
+ */
 const ScoreHistoryModal = ({userId}) => {
 
     const [filters, setFilters] = useState({page: 1, pageSize: 10});

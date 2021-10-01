@@ -6,6 +6,11 @@ import Styles from './styles.module.css';
 
 import { ScoreHistoryModal } from './../index'
 
+/**
+ * This blocks shows a user
+ * @param {*} props.leader - user
+ * @returns 
+ */
 const LeaderBlock = (props) => {
     const [anchorEl, setAnchorEl] = useState(null);
 

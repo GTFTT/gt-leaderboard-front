@@ -8,6 +8,9 @@ import { availableRegions } from 'global';
 import { LeaderBlock } from './components';
 import Styles from './styles.module.css';
 
+/**
+ * Show leaderboard table with filters and controls.
+ */
 const Home = () => {
     const [leaderboard, setLeaderboard] = useState({});
     const [filters, setFilters] = useState({page: 1, pageSize: 25, query: "", region: ""});
