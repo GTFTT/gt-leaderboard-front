@@ -4,19 +4,29 @@
     min-height: 150vh;
     padding: 1em;
     margin: 1em 0;
-    border-radius: 1rem;
+}
+
+.controlsCont {
+    background-color: #333;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 0.2rem;
 }
 
 .inputCont {
-    background-color: #333;
-    padding: 1em;
     display: flex;
     justify-content: space-around;
-    margin: 1em 0;
+    padding-bottom: 1.5em;
 }
 
 .inputField, .inputSelect {
     min-width: 30vw;
     background-color: #555;
     border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.paginationCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
