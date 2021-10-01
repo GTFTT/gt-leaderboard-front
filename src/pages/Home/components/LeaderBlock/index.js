@@ -4,6 +4,8 @@ import { Popover } from '@mui/material';
 
 import Styles from './styles.module.css';
 
+import { ScoreHistoryModal } from './../index'
+
 const LeaderBlock = (props) => {
     const [anchorEl, setAnchorEl] = useState(null);
 
@@ -30,6 +32,8 @@ const LeaderBlock = (props) => {
             <div className={Styles.nameCont}>
                 {`${_.get(props, 'leader.firstName', '')} ${_.get(props, 'leader.lastName', '')}`}
             </div>
+
+            <span><ScoreHistoryModal userId={props.leader.id} /></span>
 
             <div className={Styles.ratingCont}>{props.leader.rating}</div>
 

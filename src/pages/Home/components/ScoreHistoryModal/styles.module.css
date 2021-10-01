@@ -1,0 +1,9 @@
+.paginationCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.score {
+    text-align: right;
+}
