@@ -1,27 +1,58 @@
 .mainCont {
     /* min-height: 10vh; */
-    background: #000000;
-    border-radius: 20px;
+    /* background: #000000; */
+    /* border-radius: 20px; */
+    background: linear-gradient(180deg, #3f3f3f 0%, rgba(0, 0, 0, 0.6) 100%);
+    border-radius: 0.2rem;
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
     display: flex;
     justify-content: space-between;
-    padding: 1em 2em;
-    border: 0.1em solid white;
+    padding: 0.2em 2em;
+    /* border: 0.1em solid white; */
 }
 
 .numberCont {
+    min-width: 10%;
     color: #7B7B7B;
     font-weight: bold;
-    font-size: 1.5em;
+    text-align: center;
+    /* font-size: 1.2em; */
+    text-decoration: underline;
 }
 
-.nameCont {
-    min-width: 40%;
+.nameCont, .popoverTitle {
     text-align: left;
     font-size: 1.4em;
 }
 
+.nameCont {
+    min-width: 60%;
+}
+
 .ratingCont {
     color: #42DAFB;
+    text-align: right;
+}
+
+.popoverContainer {
+    min-height: 10vh;
+    min-width: 20vw;
+    background-color: #555;
+    padding: 0.2em 0.5em;
+}
+
+.popoverTitle {
+    color: white;
+}
+
+.popoverTitle span {
+    color: black;
+    font-weight: bold;
+    font-size: 0.5em;
+    padding-left: 0.2rem;
+}
+
+.popoverEmail {
+    color: white;
 }
